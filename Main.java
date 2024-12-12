@@ -1,6 +1,6 @@
 import java.util.*;
 public class Main {
-    public static void Main(String[] args){
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         boolean continuer = true;
         while (continuer) {
@@ -16,7 +16,7 @@ public class Main {
             System.out.println("8. Exit");
             System.out.print("Choose an operation: ");
             int choice = scanner.nextInt();
-        }
+
 
     }
 }
