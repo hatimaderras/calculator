@@ -55,10 +55,21 @@ public class Main {
                          System.out.println("Result: " + factorial(integer));
                      }
                      break;
-
-
-
-
-
+                 case 8: // Quit
+                     continuer = false;
+                     System.out.println("Thank you for using the calculator!");
+                     break;
+                 default:
+                     System.out.println("Error: Invalid choice!");
              }
+        }
+        scanner.close();
+    }
+
+
+
+
+
+
+}
 }
