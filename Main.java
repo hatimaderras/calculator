@@ -47,6 +47,15 @@ public class Main {
                          System.out.println("Result: " + squareRoot(number));
                      }
                      break;
+                 case 7: // Factorial
+                     int integer = (int) enterNumber();
+                     if (integer < 0) {
+                         System.out.println("Error: Factorial of a negative number does not exist!");
+                     } else {
+                         System.out.println("Result: " + factorial(integer));
+                     }
+                     break;
+
 
 
 
