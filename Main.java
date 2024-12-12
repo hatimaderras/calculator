@@ -98,12 +98,10 @@ public class Main {
         }
         return fact;
     }
+    public static double enterNumber() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        return scanner.nextDouble();
 
-
-
-
-
-
-
-}
+    }
 }
