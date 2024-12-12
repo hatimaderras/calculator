@@ -27,11 +27,13 @@ public class Main {
                     System.out.println("Result: " + multiplication(enterNumber(), enterNumber()));
                     break;
                  case 4: // Division
-                     double denominator = enterNumber();
+                     double numerator = enterNumber();  // Get the first number (numerator)
+                     double denominator = enterNumber();  // Get the second number (denominator)
+
                      if (denominator == 0) {
                          System.out.println("Error: Division by zero!");
                      } else {
-                         System.out.println("Result: " + division(enterNumber(), denominator));
+                         System.out.println("Result: " + division(numerator, denominator));  // Proceed with valid division
                      }
                      break;
                  case 5: // Power
