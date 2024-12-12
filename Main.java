@@ -26,8 +26,30 @@ public class Main {
                 case 3: // Multiplication
                     System.out.println("Result: " + multiplication(enterNumber(), enterNumber()));
                     break;
+                 case 4: // Division
+                     double denominator = enterNumber();
+                     if (denominator == 0) {
+                         System.out.println("Error: Division by zero!");
+                     } else {
+                         System.out.println("Result: " + division(enterNumber(), denominator));
+                     }
+                     break;
+                 case 5: // Power
+                     System.out.print("Enter the exponent: ");
+                     double exponent = scanner.nextInt();
+                     System.out.println("Result: " + power(enterNumber(), exponent));
+                     break;
+                 case 6: // Square Root
+                     double number = enterNumber();
+                     if (number < 0) {
+                         System.out.println("Error: Cannot calculate the square root of a negative number!");
+                     } else {
+                         System.out.println("Result: " + squareRoot(number));
+                     }
+                     break;
 
 
 
-            }
+
+             }
 }
