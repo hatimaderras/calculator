@@ -16,7 +16,18 @@ public class Main {
             System.out.println("8. Exit");
             System.out.print("Choose an operation: ");
             int choice = scanner.nextInt();
+             switch (choice) {
+                case 1: // Addition
+                    System.out.println("Result: " + addition(enterNumber(), enterNumber()));
+                    break;
+                case 2: // Subtraction
+                    System.out.println("Result: " + subtraction(enterNumber(), enterNumber()));
+                    break;
+                case 3: // Multiplication
+                    System.out.println("Result: " + multiplication(enterNumber(), enterNumber()));
+                    break;
 
 
-    }
+
+            }
 }
