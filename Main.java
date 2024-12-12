@@ -81,6 +81,14 @@ public class Main {
     public static double division(double a, double b) {
         return a / b;
     }
+    public static double power(double a, double b) {
+        return Math.pow(a, b);
+    }
+
+    public static double squareRoot(double a) {
+        return Math.sqrt(a);
+    }
+
 
 
 
